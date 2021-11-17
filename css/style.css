@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.banner{
+    background: url(../img/eu-mariaclara.JPG) center no-repeat;
+    background-size: cover;
+    height: 90vh;
+    text-align: center;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    color: white;
+}
+
+.banner p{
+    margin: 20px;
+    font-size: 1.50em;
+}
+
+h1{
+    margin: 10px;
+}
+
+
+.btn-branco{
+    color: white;
+    background-color: #64c9c9;
+    text-transform: uppercase;
+    border-radius: 25px;
+    border: white solid 2px;
+    padding: 10px 25px 10px 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.principal{
+    height: 50vh;
+}
+
+.principal h2{
+    text-align: left;
+    margin: 50px 100px 50px 50px;
+    color: #C4C4C4;
+    font-size: 3rem;
+}
+
+.sobre-habilidades{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.sobre, .habilidades{
+    width: 400px;
+    margin-right: 310px;
+    display: block;
+    font-size: 1.20em;
+    line-height: 1.1;
+}
+
+.sobre p{
+    margin-bottom: 35px;
+}
+
+.habilidades h3{
+    margin-bottom: 20px;
+}
+
+.habilidades li{
+    margin-bottom: 10px;
+}
+
+.btn-azultwo{
+    color: black;
+    background-color: #64c9c9;
+    border: 1px solid white;
+    border-radius: 20px;
+    border: black solid 2px;
+    padding: 10px;
+    margin: 50px;
+}
+
+.redes-sociais{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: flex-start;
+    height: 50vh;
+}
+
+.redes-sociais a{
+    text-align: center;
+    background-color: #64c9c9;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    height: 180px;
+    color: black;
+    border-radius: 50px;
+    border: black solid 2px;
+}
+
+.redes-sociais img{
+    padding: 7px;
+}
+
+.rodapefinal{
+    text-align: center;
+    color: #868585;
+    margin-bottom: 0;
+}
+
+.rodapefinaltwo{
+    text-align: center;
+    color: #868585;
+    margin-bottom: 10px;
+}
